@@ -1,0 +1,14 @@
+/* Mengubah warna teks pada elemen h1 */
+h1 {
+    color: blue;
+}
+
+/* Mengatur latar belakang elemen body */
+body {
+    background-color: #f0f0f0;
+}
+
+/* Mengatur gaya font pada elemen p */
+p {
+    font-family: "Arial", sans-serif;
+}
