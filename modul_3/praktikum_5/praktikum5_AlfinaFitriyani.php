@@ -6,7 +6,7 @@
 </head>
 <body>
     <h2>FORM</h2>
-    <form action="proses.php" method="post" enctype="multipart/form-data">
+    
         <label for="nama">Nama:</label>
         <input type="text" id="nama" name="nama" required><br><br>
         
