@@ -9,7 +9,7 @@
             <hr>
             <br>
 </center>
-            <h2>Ayo Kita Belajar Web Developer Bersama!</h2>
+            <center><h2>Ayo Kita Belajar Web Developer Bersama!</h2></center>
             <p>Nama Mahasiswa : Alfina Fitriyani</p>
             <p>Alamat : Jebol RT 06/RW 01, Kec.Mayong Kab.Jepara</p>
     <p>Ayo Kujungi Website Polibang! <a href="https://www.polibang.ac.id"> "Polibang Jepara"</a></p>
