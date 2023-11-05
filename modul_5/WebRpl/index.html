@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            .header{
+                background-color: cadetblue;
+                width: 730px;
+                height: 300px;
+                border-bottom-right-radius: 50px;
+                margin-left: 29.8%;
+                color: white;
+                margin-top: -6px;
+            }
+            .header-text {
+                position: absolute;
+                right: 15%;
+                bottom: 15%;
+                top: 30%;
+                text-align: right;
+            }
+            .sidebar{
+                background-color: white;
+                width: 16%;
+                height: 370px;
+                border-top-left-radius: 50px;
+                border: 2px solid #000;
+                margin-top: -23.8%;
+                margin-left: 13%;
+                
+            }
+            .sidebar img{
+                margin-top: 20px;
+                margin-left: 8%;
+            }
+            .sidebar p{
+                justify-content: center;
+                display: flex;
+            }
+            .sidebar li {
+                width: 80%;
+                border-bottom: 1px dotted #000;
+            
+            }
+            .sidebar a {
+                color: black;
+                text-decoration: none;
+            }
+            .navbar {
+                background-color: #000;
+                display: flex;
+                justify-content: space-around;
+                width: 730px;
+                margin-top: -69px;
+                margin-left: 29.8%;
+                position: relative;
+            }
+            .navbar p{
+                margin: 0; /* Menghapus margin pada teks */
+                padding: 8px; /* Menambahkan ruang di sekitar teks */
+                font-size: 15px; /* Mengurangi ukuran teks */
+            }
+            .navbar a {
+                color: white;
+            }
+            .content {
+                background-color: rgb(155, 223, 180) ;
+                width: 730px;
+                height: 196px;
+                margin-top: 4px;
+                margin-left: 29.8%;
+            }
+            .footer {
+                background-color: grey;
+                position: fixed;
+                bottom: 0;
+                width: 947px;
+                height: 50px;
+                border-radius: 30px 0 30px 0;
+                margin-bottom: 1px;
+                margin-left: 12.5%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            .footer p {
+                margin: 0;
+                font-size: 14px; /* ukuran teks  */
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="header-text">
+                <h1>Belajar Layout Website</h1>
+                <h3>Menggunakan HTML dan CSS</h3>
+            </div>
+        </div>
+        <div class="sidebar" >
+            <img src="image/Logo_Polibang.png" width="85%" height="55%" >
+            <p style="background-color: burlywood; padding: 5px;" >Artikel Populer</p>
+            <ul>
+                <li><a href="DesainWeb.html" target="New-Form">Desain Web</a></li>
+                <li><a href="ForHtml.html" target="New-Form">HTML</a></li>
+                <li><a href="ForCSS.html" target="New-Form">CSS</a></li>
+                <li><a href="Polibang.html" target="New-Form">Polibang</a></li>
+            </ul>
+        </div>
+        <div class="navbar" >
+            <a href="Home.html" target="content">
+                <p style="color: white;">HOME</p>
+            </a>
+            <a href="VisiMisi.html" target="content">
+                <p style="color: white;">VISI & MISI</p>
+            </a>
+            <a href="Informasi.html" target="content">
+                <p style="color: white;">INFORMASI</p>
+            </a>
+            <a href="Dosen.html" target="content">
+                <p style="color: white;">DOSEN</p>
+            </a>
+            <a href="Kontak.html" target="content">
+                <p style="color: white;">KONTEN</p>
+            </a>
+            <a href="Gallery.html" target="content">
+                <p style="color: white;">GALLERY</p>
+            </a>
+        </div>
+        <div class="content"></div>
+        <div class="footer">
+            <p>&copy; Copyright Alfina Fitriyani 2023</p>
+            <p>Rekayasa Perangkat Lunak Politeknik Balekambang Jepara</p>
+        </div>
+    </body>
+</html>

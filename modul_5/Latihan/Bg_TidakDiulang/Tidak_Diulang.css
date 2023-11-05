@@ -1,0 +1,6 @@
+.container {
+    background-image: url(kucing.png);
+    height: 100vh;
+    width: auto !important;
+    background-repeat: no-repeat;
+}

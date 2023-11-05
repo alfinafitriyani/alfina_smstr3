@@ -1,0 +1,6 @@
+.container {
+    background-image: url(Bg1.png);
+    height: 400vh;
+    width: auto !important;
+    background-repeat: repeat-y;
+}
