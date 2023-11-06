@@ -3,15 +3,17 @@
         <meta charset="utf-8">
         <style>
             .header{
-                background-color: cadetblue;
+                background-image: url('image/download.jpeg');
+                background-size: cover; /* Agar gambar mengisi seluruh area header */
+                background-position: top right;/* Menggeser gambar ke atas kanan */
                 width: 730px;
                 height: 300px;
                 border-bottom-right-radius: 50px;
                 margin-left: 29.8%;
-                color: white;
                 margin-top: -6px;
             }
             .header-text {
+                color: white;
                 position: absolute;
                 right: 15%;
                 bottom: 15%;
@@ -23,10 +25,9 @@
                 width: 16%;
                 height: 370px;
                 border-top-left-radius: 50px;
-                border: 2px solid #000;
                 margin-top: -23.8%;
                 margin-left: 13%;
-                
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2),-5px -5px 10px rgba(0, 0, 0, 0.2);; /* Menambahkan bayangan */
             }
             .sidebar img{
                 margin-top: 20px;
@@ -46,11 +47,11 @@
                 text-decoration: none;
             }
             .navbar {
-                background-color: #000;
+                background-color: rgb(58, 57, 57);
                 display: flex;
                 justify-content: space-around;
                 width: 730px;
-                margin-top: -69px;
+                margin-top: -64px;
                 margin-left: 29.8%;
                 position: relative;
             }
@@ -63,14 +64,14 @@
                 color: white;
             }
             .content {
-                background-color: rgb(155, 223, 180) ;
+                background-color: rgb(200, 198, 198);
                 width: 730px;
                 height: 196px;
                 margin-top: 4px;
                 margin-left: 29.8%;
             }
             .footer {
-                background-color: grey;
+                background-color: rgb(58, 57, 57);
                 position: fixed;
                 bottom: 0;
                 width: 947px;
@@ -82,6 +83,7 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
+                color: white;
             }
             .footer p {
                 margin: 0;
@@ -99,12 +101,12 @@
         </div>
         <div class="sidebar" >
             <img src="image/Logo_Polibang.png" width="85%" height="55%" >
-            <p style="background-color: burlywood; padding: 5px;" >Artikel Populer</p>
+            <p style="background-color: rgb(58, 57, 57); padding: 5px; color: white;" >Artikel Populer</p>
             <ul>
-                <li><a href="DesainWeb.html" target="New-Form">Desain Web</a></li>
-                <li><a href="ForHtml.html" target="New-Form">HTML</a></li>
-                <li><a href="ForCSS.html" target="New-Form">CSS</a></li>
-                <li><a href="Polibang.html" target="New-Form">Polibang</a></li>
+                <li><a href="https://www.w3schools.com/css/css_website_layout.asp" target="New-Form">Desain Web</a></li>
+                <li><a href="https://www.w3schools.com/html/" target="New-Form">HTML</a></li>
+                <li><a href="https://www.w3schools.com/css/" target="New-Form">CSS</a></li>
+                <li><a href="https://www.polibang.ac.id/" target="New-Form">Polibang</a></li>
             </ul>
         </div>
         <div class="navbar" >
@@ -121,13 +123,16 @@
                 <p style="color: white;">DOSEN</p>
             </a>
             <a href="Kontak.html" target="content">
-                <p style="color: white;">KONTEN</p>
+                <p style="color: white;">KONTAK</p>
             </a>
             <a href="Gallery.html" target="content">
                 <p style="color: white;">GALLERY</p>
             </a>
         </div>
-        <div class="content"></div>
+        <div class="content">
+            <iframe name="content" src="Home.html" width="100%" height="100%"></iframe>
+            
+        </div>
         <div class="footer">
             <p>&copy; Copyright Alfina Fitriyani 2023</p>
             <p>Rekayasa Perangkat Lunak Politeknik Balekambang Jepara</p>
