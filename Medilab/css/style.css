@@ -8,7 +8,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 20px;
-	color: #999999;
+	color: #4b4a4a;
 	font-size: 300;
 	font-size: 16px;
 }
@@ -31,12 +31,12 @@ h1, h2, h3, h4, h5, h6
 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
-	color: #222222;
+	color: #161616;
 }
+
 a, a:hover, a:focus, a:active{
     outline: none;
 }
-
 .section-padding{
 	padding: 60px 0px;
 
@@ -56,6 +56,7 @@ hr.botm-line {
     border: 0;
     margin: 20px 0 20px 0;
 }
+
 
 /***************************************
 banner
@@ -141,7 +142,7 @@ banner
     background-color: rgba(12, 184, 182) !important;
 }
 #banner{
-	background: url('../img/bg-banner.jpg') no-repeat fixed;
+	background: url('../img/bg-ginjal.jpg') no-repeat fixed;
 	background-size: cover;
 	min-height: 650px;
 	position: relative;
@@ -169,7 +170,7 @@ banner
 	margin-top: 30px;
 	padding: 10px 20px;
 	font-size: 12px;
-	background-color: rgba(12, 184, 182, 0.91);
+	background-color: rgba(71, 209, 206, 0.91);
 	border-radius: 3px;
 	color: #fff;
 }
@@ -242,12 +243,15 @@ td {
 /***************************************
 about
 ***************************************/
-#about{
+#penyebab{
     background-color: rgba(238, 238, 238, 0.15);
 }
 .lg-line{
 	line-height: 1.4;
 	font-size: 28px;
+}
+.more-features-box-text {
+    padding-top: 100px;  
 }
 .more-features-box-text-icon {
     float: left;
@@ -261,7 +265,8 @@ about
     color: #fff;
     text-align: center;
 }
-.more-features-box-text-description h3{
+
+.more-features-box-text-description h4{
     padding-bottom: 15px;
 }
 .more-features-box-text-icon i {
@@ -352,31 +357,7 @@ testimonial
     box-shadow: 3px -13px 5px 0px rgba(0, 0, 0, 0.18);
     border-left: 0;
 }
-/***************************************
-cta -2
-***************************************/
-#cta-2{
-	background-color: rgb(41, 48, 46);
-}
-.white{
-	color: #fff;
-}
-.icon-play, .icon-play:hover, .icon-play:focus{
-	background-color: #0CB8B6;
-	padding: 5px 10px;
-	color: #fff;
-	text-decoration: none;
-	padding: 5px 17px;
-	margin-top: 26px;
-	display: block;
-}
-.text-primary {
-    color: #0cb8b6;
-}
-.icon-mar
-{
-	margin-right: 7px;
-}
+
 /***************************************
 contact us
 ***************************************/
