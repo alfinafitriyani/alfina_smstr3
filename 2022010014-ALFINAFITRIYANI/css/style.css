@@ -8,7 +8,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 20px;
-	color: #4b4a4a;
+	color: #292929;
 	font-size: 300;
 	font-size: 16px;
 }
@@ -41,6 +41,16 @@ a, a:hover, a:focus, a:active{
 	padding: 60px 0px;
 
 }
+/* Tambahkan CSS berikut untuk membuat warna tabel lebih gelap */
+table {
+    background-color: #2C3E50; /* Ganti dengan warna yang diinginkan */
+}
+
+/* Tambahkan CSS berikut untuk mengubah warna teks dalam tabel */
+table, th, td {
+    color: #fff; /* Ganti dengan warna teks yang sesuai */
+}
+
 h2 {
     line-height: 20px;
     margin: 0;
@@ -169,8 +179,8 @@ banner
 .btn-appoint, .btn-appoint:hover, .btn-appoint:focus{
 	margin-top: 30px;
 	padding: 10px 20px;
-	font-size: 12px;
-	background-color: rgba(71, 209, 206, 0.91);
+	font-size: 15px;
+	background-color: rgba(68, 158, 157, 0.91);
 	border-radius: 3px;
 	color: #fff;
 }
