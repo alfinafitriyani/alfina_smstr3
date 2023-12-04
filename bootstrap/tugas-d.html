@@ -1,0 +1,223 @@
+<!-- 
+Analisis Kebutuhan:
+alasan mengapa aplikasi ini dibutuhkan dan berbasis lokal:
+1. Promosi Pariwisata Lokal: Aplikasi ini dapat menjadi alat promosi untuk menampilkan keindahan dan keragaman tempat wisata di Indonesia kepada pengguna lokal. Ini dapat membantu masyarakat lebih mengenal dan mengapresiasi destinasi pariwisata di dalam negeri.
+2. Penyajian Informasi yang Mudah Dipahami: Dengan menggunakan template Bootstrap, informasi tentang tempat wisata dapat disajikan secara terstruktur dan mudah dipahami. Desain responsif Bootstrap memastikan tampilan yang baik di berbagai perangkat, termasuk ponsel dan tablet.
+3. Keterlibatan Pengguna: Formulir dan komponen interaktif dapat digunakan untuk mendapatkan umpan balik dari pengguna atau menyediakan cara bagi pengguna untuk berpartisipasi, misalnya, dengan memberikan ulasan atau menandai tempat wisata yang sudah dikunjungi.
+4. Kemudahan Pemeliharaan: Dengan menggunakan Bootstrap, pemeliharaan aplikasi menjadi lebih mudah karena struktur templating yang konsisten dan komponen yang dapat digunakan kembali. Hal ini membuat pengembangan dan pembaruan lebih efisien.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wisata Indonesia</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+<body>
+  <header class="py-3 bg-success ">
+    <div class="container">
+      <h1 class="display-4 text-white text-center">WISATA INDONESIA</h1>
+    </div>
+  </header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Wisata Indonesia</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#beranda">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#destinasi">Destinasi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#ulasan">Ulasan</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#galery">Galeri</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section id="destinasi" class="py-5 bg-light">
+  <div class="container">
+    <div class="row">
+      <!-- Tempat Wisata Pertama -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="image/Candi-Borobudur.jpg" class="card-img-top" alt="Candi Borobudur">
+          <div class="card-body">
+            <h5 class="card-title">Candi Borobudur</h5>
+            <p class="card-text">Salah satu candi Buddha terbesar di dunia, terletak di Magelang, Jawa Tengah.</p>
+            <a href="#" class="btn btn-primary">Detail</a>
+          </div>
+        </div>
+      </div>
+      <!-- Tempat Wisata Kedua -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="image/Bali.jpg" class="card-img-top" alt="Pulau Bali">
+          <div class="card-body">
+            <h5 class="card-title">Pulau Bali</h5>
+            <p class="card-text">Pulau eksotis dengan pantai indah, budaya unik, dan tarian tradisional.</p>
+            <a href="#" class="btn btn-primary">Detail</a>
+          </div>
+        </div>
+      </div>
+      <!-- Tempat Wisata Ketiga -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="image/Pulau-Komodo.jpg" class="card-img-top" alt="Pulau Komodo">
+          <div class="card-body">
+            <h5 class="card-title">Pulau Komodo</h5>
+            <p class="card-text">Rumah bagi komodo, spesies kadal terbesar di dunia, di Provinsi Nusa Tenggara Timur.</p>
+            <a href="#" class="btn btn-primary">Detail</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- Tempat Wisata Keempat -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="image/Raja-Ampat.jpg" class="card-img-top" alt="Raja Ampat">
+          <div class="card-body">
+            <h5 class="card-title">Raja Ampat</h5>
+            <p class="card-text">Destinasi penyelaman terbaik di dunia dengan keindahan bawah laut yang luar biasa.</p>
+            <a href="#" class="btn btn-primary">Detail</a>
+          </div>
+        </div>
+      </div>
+      <!-- Tempat Wisata Kelima -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="image/Gunung-Bromo.jpeg" class="card-img-top" alt="Gunung Bromo">
+          <div class="card-body">
+            <h5 class="card-title">Gunung Bromo</h5>
+            <p class="card-text">Gunung berapi aktif dengan pemandangan matahari terbit yang memukau.</p>
+            <a href="#" class="btn btn-primary">Detail</a>
+          </div>
+        </div>
+      </div>
+      <!-- Tempat Wisata Keenam -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="image/Tana-Toraja.jpg" class="card-img-top" alt="Tana Toraja">
+          <div class="card-body">
+            <h5 class="card-title">Tana Toraja</h5>
+            <p class="card-text">Daerah dengan budaya kematian yang unik dan rumah adat Tongkonan.</p>
+            <a href="#" class="btn btn-primary">Detail</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- Tempat Wisata Ketujuh -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="image/Yogyakarta.jpeg" class="card-img-top" alt="Yogyakarta">
+          <div class="card-body">
+            <h5 class="card-title">Yogyakarta</h5>
+            <p class="card-text">Kota seni dan budaya dengan istimewa keindahan alam dan sejarah.</p>
+            <a href="#" class="btn btn-primary">Detail</a>
+          </div>
+        </div>
+      </div>
+      <!-- Tempat Wisata Kedelapan -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="image/Gili-Trawangan.jpeg" class="card-img-top" alt="Gili Trawangan">
+          <div class="card-body">
+            <h5 class="card-title">Gili Trawangan</h5>
+            <p class="card-text">Pulau kecil yang indah di Lombok dengan pantai putih dan kehidupan malam yang menyenangkan.</p>
+            <a href="#" class="btn btn-primary">Detail</a>
+          </div>
+        </div>
+      </div>
+      <!-- Tempat Wisata Kesembilan -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="image/Danau-Toba.jpeg" class="card-img-top" alt="Danau Toba">
+          <div class="card-body">
+            <h5 class="card-title">Danau Toba</h5>
+            <p class="card-text">Danau vulkanik terbesar di dunia di Sumatra Utara.</p>
+            <a href="#" class="btn btn-primary">Detail</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Formulir untuk Memberikan Ulasan -->
+<section id="ulasan" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 mx-auto">
+        <h2 class="text-center">Beri Ulasan Anda</h2>
+        <form>
+          <div class="form-group">
+            <label for="nama">Nama Anda:</label>
+            <input type="text" class="form-control" id="nama" placeholder="Masukkan nama Anda">
+          </div>
+          <div class="form-group">
+            <label for="ulasan">Ulasan Anda:</label>
+            <textarea class="form-control" id="ulasan" rows="3" placeholder="Tulis ulasan Anda"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Kirim Ulasan</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Komponen Tambahan (Contoh: Carousel) -->
+<section id="galeri" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 center">
+        <h2 class="text-center">Galeri Wisata</h2>
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="image/Galery-Bali.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="image/Gunung-Bromo.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="image/Pulau-Komodo.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
