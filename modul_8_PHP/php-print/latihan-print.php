@@ -1,13 +1,12 @@
 <?php
 // Informasi tentang Politeknik Balekambang
-$namaPoliteknik = "Politeknik Balekambang";
-$lokasiPoliteknik = "Malang, Jawa Timur";
-$tahunBerdiri = 1996;
-$jumlahProgramStudi = 10;
+$nama = "Politeknik Balekambang Jepara";
+$lokasi = "Jepara, Jawa Tengah";
+$prodi = "Program Studi";
+$rpl = "1. Rekayasa Perangkat Lunak";
+$abi = "2. Administrasi Bisnis Internasional";
+$akp = "3. Akuntansi Keuangan Publik";
 
-// Menampilkan informasi menggunakan print statement
-print "Informasi tentang $namaPoliteknik:<br>";
-print "Lokasi: $lokasiPoliteknik<br>";
-print "Tahun Berdiri: $tahunBerdiri<br>";
-print "Jumlah Program Studi: $jumlahProgramStudi<br>";
+// Menampilkan informasi menggunakan echo statement
+print "$nama, Terletak di $lokasi. Memiliki 3 $prodi, yaitu : <br>$rpl <br> $abi <br>$akp.";
 ?>
