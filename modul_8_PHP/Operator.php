@@ -13,8 +13,6 @@ $b = 10;
  echo ("-a = ".-$a ."<br>"); //Output 15
 
  echo "<h4>Operator Penugasan</h4>";
-
-
 // 
 $x = 5;
 $x *= 3;
